@@ -1,3 +1,3 @@
-# IACS's new Website
+# A WordPres Theme
 
-A wordpress theme for IACS
+Todo: Instructions
