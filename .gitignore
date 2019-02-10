@@ -1,0 +1,22 @@
+## OS Specific
+.DS_Store
+Thumbs.db
+
+# Ignore all files recursively in 'nogit'
+# nogit/**
+
+# Other files that should not be added by the
+# git add . command.
+
+.DS_Store
+screenlog.*
+
+*.log
+
+.htaccess
+license.txt
+readme.html
+sitemap.xml
+sitemap.xml.gz
+
+.git
