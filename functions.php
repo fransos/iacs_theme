@@ -342,3 +342,11 @@ function custom_menu_page_removing() {
   remove_menu_page( 'edit-comments.php' );          //Comments
 }
 add_action( 'admin_menu', 'custom_menu_page_removing' );
+
+function custom_upload_mimes ( $existing_mimes=array() ) {
+    // add your extension to the mimes array as below
+    $existing_mimes['zip'] = 'application/zip';
+    $existing_mimes['gz'] = 'application/x-gzip';
+    return $existing_mimes;
+}
+add_filter('upload_mimes', 'custom_upload_mimes');

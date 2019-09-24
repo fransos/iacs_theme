@@ -910,6 +910,14 @@ input:checked ~ ul {
 	margin: 0 auto;
 }
 
+.centertext > * {
+	text-align:center !important;
+}
+
+.centertext {
+	text-align:center !important;
+}
+
 .page-content,
 .entry-content, div#twitter,
 .entry-summary {
@@ -1125,6 +1133,10 @@ object {
 @media (max-width: 664px) { /* mobile */
 	#masthead {
 		height:50px;
+		position:fixed;
+	}
+	#logo_text_vert {
+		display:none;
 	}
 }
 
@@ -1631,6 +1643,10 @@ form input[type="checkbox"] {
 }
 
 .pdb-error {
+	color:black;
+}
+
+.pdb-message p {
 	color:black;
 }
 
